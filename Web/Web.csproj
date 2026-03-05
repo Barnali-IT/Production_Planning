@@ -209,6 +209,20 @@
     <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.7.0.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{55da8dd0-cdf0-4803-9e0d-b89bbfa26e5c}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\Repository.csproj">
+      <Project>{6bbf7255-083e-4b22-8152-24f39813022f}</Project>
+      <Name>Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{7fa5851e-01ef-4899-bd5e-53e39ffcf2bd}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

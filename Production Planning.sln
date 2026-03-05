@@ -4,12 +4,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{B348B3E9-1988-4808-BAC9-02B64322C9EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{55DA8DD0-CDF0-4803-9E0D-B89BBFA26E5C} = {55DA8DD0-CDF0-4803-9E0D-B89BBFA26E5C}
+		{6BBF7255-083E-4B22-8152-24F39813022F} = {6BBF7255-083E-4B22-8152-24F39813022F}
+		{7FA5851E-01EF-4899-BD5E-53E39FFCF2BD} = {7FA5851E-01EF-4899-BD5E-53E39FFCF2BD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{55DA8DD0-CDF0-4803-9E0D-B89BBFA26E5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{6BBF7255-083E-4B22-8152-24F39813022F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{55DA8DD0-CDF0-4803-9E0D-B89BBFA26E5C} = {55DA8DD0-CDF0-4803-9E0D-B89BBFA26E5C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{7FA5851E-01EF-4899-BD5E-53E39FFCF2BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{55DA8DD0-CDF0-4803-9E0D-B89BBFA26E5C} = {55DA8DD0-CDF0-4803-9E0D-B89BBFA26E5C}
+		{6BBF7255-083E-4B22-8152-24F39813022F} = {6BBF7255-083E-4B22-8152-24F39813022F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
